@@ -8,8 +8,8 @@ end
   
   
 def long_planeteer_calls(calls)
-  calls.each {|strings| 
-    if strings.length > 4
+  calls.each {|time| 
+    if time.length > 4
       return true 
     end 
   }
